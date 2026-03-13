@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 30px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 50px;
+            color: #333;
+        }
+        .names {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px 10px;
+        }
+        .person {
+            text-align: center;
+            flex: 1 0 auto;
+            min-width: 90px;
+        }
+        .name {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            white-space: nowrap;
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .person:nth-child(1) .circle { background: red; }
+        .person:nth-child(2) .circle { background: orange; }
+        .person:nth-child(3) .circle { background: yellow; }
+        .person:nth-child(4) .circle { background: green; }
+        .person:nth-child(5) .circle { background: blue; }
+        .person:nth-child(6) .circle { background: indigo; }
+        .person:nth-child(7) .circle { background: violet; }
+        .person:nth-child(8) .circle { background: #FF69B4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Github practice</h1>
+        <div class="names">
+            <div class="person">
+                <div class="name">Nur</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Abdur-Rahman</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Shamsudeen</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Faisal</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Ali</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Maryam</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Fatimah</div>
+                <div class="circle"></div>
+            </div>
+            <div class="person">
+                <div class="name">Aisha</div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
